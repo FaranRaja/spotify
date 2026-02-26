@@ -20,6 +20,7 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  
 
 }
 
@@ -321,4 +322,16 @@ input:focus {
 
 .all-playlists:hover{
   scrollbar-color: #88888826 transparent; 
+}
+
+.mainbody{
+  display: flex;
+  gap: 10px;
+  
+}
+
+.middle{
+  background:#111;
+  flex: 1;
+  border-radius: 15px;
 }
