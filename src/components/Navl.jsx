@@ -7,13 +7,13 @@ const Navl = () => {
   return (
     <div className='navl'>
       <button className='ep'>Explore Premium</button>
-      <button className='ia'>
+      <button className='ia white-hover'>
         <ArrowDownToLine />
         Install App
       </button>
-      <Bell />
-      <Users />
-      <Profile />
+      <Bell className=' gray white-hover'/>
+      <Users className='gray white-hover'/>
+      <Profile name ='A' />
     </div>
   )
 }

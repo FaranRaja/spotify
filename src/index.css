@@ -6,6 +6,8 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+
 
 }
 
@@ -119,4 +121,120 @@ input{
   gap:200px;
   
   color: gray;
+}
+
+.searchicon{
+  color: gray;
+}
+
+.search:hover .searchicon{
+    color: white;
+}
+
+.archive:hover{
+  color: white;
+}
+
+.white-hover:hover{
+  color: white;
+}
+
+.gray{
+  color: gray;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.mainbody{
+  margin-left: 10px;
+  
+}
+
+.sidebar{
+  background-color: #111;
+  color: #fff;
+  height: 100vh;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.side-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.side-top-right{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: gray;
+  font-size: small;
+}
+
+.left-top-round{
+  background-color: #222;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-buttons-container{
+  display: flex;
+  gap: 10px;
+  font-size: small;
+}
+
+.sidebar-buttons{
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+.filters{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+ 
+}
+
+.filters-right{
+  display: flex;
+  gap:5px;
+  align-items: center;
+}
+
+
+.filters-right:hover{
+  color: white;
+}
+
+.search-filter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: none;
+}
+
+.search-filter:hover{
+  background-color: #333;
 }

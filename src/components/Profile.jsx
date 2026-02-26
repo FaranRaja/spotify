@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <div className='user'>
-      <div className='inneru'>F</div>
+      <div className='inneru'>{props.name}</div>
     </div>
   )
 }
