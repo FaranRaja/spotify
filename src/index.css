@@ -163,6 +163,7 @@ input:focus {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  
 }
 
 .side-top{
@@ -237,4 +238,87 @@ input:focus {
 
 .search-filter:hover{
   background-color: #333;
+  color: white;
+}
+
+.right-round-hover{
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  
+}
+
+.right-round-hover:hover{
+  background-color: #333;
+  color: white;
+}
+
+.left-top-round:hover{
+  color: white;
+}
+
+
+.content-container {
+  padding: 5px;
+  height: 80px; 
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: background-color 0.2s;
+}
+
+
+.playlist {
+  width: 70px; 
+  height: 70px; 
+  flex-shrink: 0; 
+}
+
+
+.playlist-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+
+.playlist-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.playlist-details h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.playlist-details p {
+  color: gray;
+  font-size: 14px;
+  margin: 0;
+}
+
+
+.content-container:hover {
+  background-color: #333;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.all-playlists{
+  overflow-y: auto;
+  scrollbar-width: thin;     
+  scrollbar-color: #88888800 transparent;
+  transition: 0.3s; 
+}
+
+.all-playlists:hover{
+  scrollbar-color: #88888826 transparent; 
 }

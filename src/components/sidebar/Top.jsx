@@ -10,8 +10,10 @@ const Top = () => {
             <div className="left-top-round">
                 <Plus />
             </div>
-
-            <Minimize2 />
+          <div className="right-round-hover">
+                <Minimize2 />
+          </div>
+            
         </div>
       
     </div>
