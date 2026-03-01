@@ -41,6 +41,19 @@ const Songs = () => {
     artist: "Kendrick Lamar"
   },
 
+  {
+    id: 6,
+    image: "https://e.snmc.io/i/600/s/3b6e09a87c40d0ee495e02b2a9cdba03/6476107/kendrick-lamar-humble-Cover-Art.jpg",
+    songName: "HUMBLE.",
+    artist: "Kendrick Lamar"
+  },
+  {
+    id: 6,
+    image: "https://e.snmc.io/i/600/s/3b6e09a87c40d0ee495e02b2a9cdba03/6476107/kendrick-lamar-humble-Cover-Art.jpg",
+    songName: "HUMBLE.",
+    artist: "Kendrick Lamar"
+  },
+
   
   
 ];
@@ -49,7 +62,7 @@ const Songs = () => {
 
   return (
 
-    <div> 
+    <div className='songs-center'> 
 
         <div className='songs-heading'>
         <h2>Trending Songs</h2>
