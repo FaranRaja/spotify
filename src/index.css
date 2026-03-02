@@ -570,3 +570,87 @@ input:focus {
 .main-404 p:hover{
   text-decoration: underline;
 }
+
+.signup-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111;
+  
+  
+}
+
+.signup img{
+  height: 100px;
+  width: 100px;
+}
+
+.signup-content h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+.signup-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  align-items: center;
+  width: 380px;
+  
+}
+
+.container-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+
+.signup-form{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+  margin-top: 50px;
+}
+
+.email-input{
+  border: 1px solid rgba(255, 255, 255, 0.363);
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  background: none;
+  color: white;
+  font-size: 20px;
+}
+
+
+.signup-btn {
+  background: #1ed760;
+  border: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 15px 40px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+
+.signup-btn:hover{
+  opacity: 0.9;
+}
+
