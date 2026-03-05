@@ -1,5 +1,8 @@
 import React from 'react'
 import Email from './Email'
+import OtherOptions from './OtherOptions'
+import AccountExists from './AccountExists'
+
 
 const Signup = () => {
   return (
@@ -15,6 +18,11 @@ const Signup = () => {
         
 
         <Email />
+        <p>or</p>
+        
+        <OtherOptions />
+
+        <AccountExists />
         
 
       </div>
