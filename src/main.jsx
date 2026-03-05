@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
         
             <App />
-        <ToastContainer theme="colored" />
+        <ToastContainer theme="dark" />
     </BrowserRouter>
   
 )
