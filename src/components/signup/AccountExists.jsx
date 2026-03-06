@@ -14,7 +14,7 @@ const AccountExists = () => {
     <div className='acc-exists'>
 
         <span>Already have an account?</span>
-        <button className='acc-exists-login' onClick = {redirect}>Login in</button>
+        <button className='acc-exists-login' onClick = {redirect}>Login</button>
       
     </div>
   )

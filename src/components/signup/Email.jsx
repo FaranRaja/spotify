@@ -46,7 +46,7 @@ const Email = () => {
 
   return (
     <div className='email'>
-      <form action="" className='signup-form'>
+      <form action="" className='signup-form' onSubmit={handleSubmit}>
 
         <label htmlFor="email">Email adress</label>
         <input className ="email-input" type="email" placeholder='name@domain.com' value ={emailValue} onChange = {(e) => {
@@ -54,7 +54,7 @@ const Email = () => {
         }}/>
 
 
-        <button className='signup-btn' onClick={handleSubmit}>Signup</button>
+        <button className='signup-btn'>Signup</button>
       </form>
     </div>
   )
