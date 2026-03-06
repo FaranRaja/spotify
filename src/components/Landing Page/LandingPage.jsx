@@ -5,6 +5,7 @@ import Middle from '../middle/Middle'
 import { useEffect } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from '../Footer/Footer'
 
 
 
@@ -33,7 +34,9 @@ const LandingPage = () => {
       <div className="mainbody">
           <Sidebar />
           <Middle />
+          
       </div>
+      <Footer />
     </div>
   )
 }
