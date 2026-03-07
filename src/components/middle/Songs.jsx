@@ -1,6 +1,13 @@
 import React from 'react'
 import Song from './Song';
 
+import BlindingLights from "../../assets/audio/Blinding Lights.mp3";
+import ShapeOfYou from "../../assets/audio/Shape of you.mp3";
+import Levitating from "../../assets/audio/Levitating.mp3";
+import Starboy from "../../assets/audio/Starboy.mp3";
+import Humble from "../../assets/audio/HUMBLE.mp3";
+import AsItWas from "../../assets/audio/As it was.mp3";
+
 const Songs = () => {
 
     const songs = [
@@ -8,50 +15,58 @@ const Songs = () => {
     id: 1,
     image: "https://i.pinimg.com/1200x/47/d5/67/47d5676e4e91a946b41bd8cd2e186dee.jpg",
     songName: "Blinding Lights",
-    artist: "The Weeknd"
+    artist: "The Weeknd",
+    audio: BlindingLights
   },
   {
     id: 2,
     image: "https://i.pinimg.com/736x/e6/5f/0c/e65f0c6ede57573306205af9dd7a115c.jpg",
     songName: "Shape of You",
-    artist: "Ed Sheeran"
+    artist: "Ed Sheeran",
+    audio: ShapeOfYou
   },
   {
     id: 3,
     image: "https://fordhamobserver.com/wp-content/uploads/2022/04/d98059a0f2afd10b04b912355c0e8ceb.1000x1000x1-900x900.png",
     songName: "As It Was",
-    artist: "Harry Styles"
+    artist: "Harry Styles",
+    audio: AsItWas
   },
   {
     id: 4,
     image: "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F4136ca8f6c03bd2fbc30c8d75407de75.1000x1000x1.png",
     songName: "Levitating",
-    artist: "Dua Lipa"
+    artist: "Dua Lipa",
+    audio: Levitating
   },
   {
     id: 5,
     image: "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/The_Weeknd_-_Starboy.png/250px-The_Weeknd_-_Starboy.png",
     songName: "Starboy",
-    artist: "The Weeknd, Daft Punk"
+    artist: "The Weeknd, Daft Punk",
+    audio: Starboy
   },
   {
     id: 6,
     image: "https://e.snmc.io/i/600/s/3b6e09a87c40d0ee495e02b2a9cdba03/6476107/kendrick-lamar-humble-Cover-Art.jpg",
     songName: "HUMBLE.",
-    artist: "Kendrick Lamar"
+    artist: "Kendrick Lamar",
+    audio: Humble
   },
 
   {
     id: 6,
     image: "https://e.snmc.io/i/600/s/3b6e09a87c40d0ee495e02b2a9cdba03/6476107/kendrick-lamar-humble-Cover-Art.jpg",
     songName: "HUMBLE.",
-    artist: "Kendrick Lamar"
+    artist: "Kendrick Lamar",
+    audio: Humble
   },
   {
     id: 6,
     image: "https://e.snmc.io/i/600/s/3b6e09a87c40d0ee495e02b2a9cdba03/6476107/kendrick-lamar-humble-Cover-Art.jpg",
     songName: "HUMBLE.",
-    artist: "Kendrick Lamar"
+    artist: "Kendrick Lamar",
+    audio: Humble
   },
 
   
@@ -73,7 +88,7 @@ const Songs = () => {
         <div className='all-songs'>
             
             {songs.map((songs,key) => {
-                return <Song key={key} image={songs.image} songName={songs.songName} artist={songs.artist} />
+                return <Song key={key} image={songs.image} songName={songs.songName} artist={songs.artist} audio ={songs.audio}/>
             }) 
 
             }
