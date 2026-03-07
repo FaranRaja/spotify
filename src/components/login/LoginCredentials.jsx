@@ -29,7 +29,7 @@ const LoginCredentials = () => {
 
         else if (credentials == localStorage.getItem('email')){
             toast.success("Logged in!");
-            setUser(credentials[0])
+            setUser(credentials[0].toUpperCase())
             nav('/')
         }
 
