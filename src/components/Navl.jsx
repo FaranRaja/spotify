@@ -13,7 +13,7 @@ const Navl = () => {
       </button>
       <Bell className=' gray white-hover'/>
       <Users className='gray white-hover'/>
-      <Profile name ='A' />
+      <Profile />
     </div>
   )
 }

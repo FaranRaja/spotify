@@ -18,7 +18,7 @@ const Searchh = () => {
     <div className='search'>
         <Search className='searchicon'onClick={searchStart} />
         <div className='searchc' >
-      <input type="text" placeholder='What do you want to play?' value={searchValue} onChange={(e) => {
+      <input type="text" placeholder='What do you want to play?' className='search-top' value={searchValue} onChange={(e) => {
         changeSearch(e)
       }}/>
       

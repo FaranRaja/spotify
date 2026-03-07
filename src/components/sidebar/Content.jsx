@@ -14,8 +14,8 @@ const Content = () => {
   {
     id: 2,
     type: "playlist",
-    name: "Top Hits 2026",
-    cover: "https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?q=80"
+    name: "Liked Songs",
+    cover: "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84587ecba4a27774b2f6f07174"
   },
   {
     id: 3,

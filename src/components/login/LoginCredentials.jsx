@@ -3,12 +3,17 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useContext } from 'react'
+import { userContext } from '../../context/AuthContext';
+
+
 
 
 const LoginCredentials = () => {
 
     const nav = useNavigate()
     const [credentials, setCredentials] = useState(localStorage.getItem('email'))
+    const [user,setUser] = useContext(userContext)
     
     const handleChange = (e) => {
         setCredentials(e.target.value)
@@ -24,6 +29,7 @@ const LoginCredentials = () => {
 
         else if (credentials == localStorage.getItem('email')){
             toast.success("Logged in!");
+            setUser(credentials[0])
             nav('/')
         }
 
