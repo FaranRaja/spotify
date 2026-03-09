@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import AudioPlayer from 'react-h5-audio-player'
+import 'react-h5-audio-player/lib/styles.css'
 
 
 const Song = (props) => {
@@ -39,10 +41,7 @@ const Song = (props) => {
 
               </div>
 
-              <audio controls autoPlay>
-                  <source src={props.audio} type="audio/mp3" />
-                  Your browser does not support the audio element.
-                  </audio>
+              <audio autoplay = "true" controls src={props.audio}></audio>
                 
 
           </div>
